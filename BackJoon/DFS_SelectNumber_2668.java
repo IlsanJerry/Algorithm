@@ -3,8 +3,8 @@ package BackJoon;
 import java.util.*;
 import java.io.*;
 
-/** * https://www.acmicpc.net/problem/2668 * BOJ 백준온라인져지 2668 숫자고르기 풀이 */
 public class DFS_SelectNumber_2668 {
+	
 	private static int arr[];
 	private static boolean visited[];
 
