@@ -26,7 +26,8 @@ public class Recursion_1019_BookPage {
             while(end%10!=9 && start<=end){
                 cal(end);
                 end--; 
-            }         
+            }    
+            
             start /= 10;  
             end /= 10;  
             
@@ -34,13 +35,13 @@ public class Recursion_1019_BookPage {
             location *= 10;  
         }
         
-        StringBuilder builder = new StringBuilder();
-        for(int i=0 ; i<10 ; i++) builder.append(arr[i] + " ");
+        StringBuilder sb = new StringBuilder();
+        for(int i=0 ; i<10 ; i++) sb.append(arr[i] + " ");
         
-        System.out.println(builder.toString());
+        System.out.println(sb.toString());
     }
     
-    public static void cal(int num){ // 각 숫자가 몇 번씩 나오는지 더함
+    public static void cal(int num){
         while(num > 0){
         	arr[num%10] += location;
             num /= 10;
