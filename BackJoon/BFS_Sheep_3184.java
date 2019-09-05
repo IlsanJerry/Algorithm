@@ -56,8 +56,7 @@ public class BFS_Sheep_3184 {
 				if (visited[tx][ty])
 					continue;
 				visited[tx][ty] = true;
-				if (ary[tx][ty] == '#')
-					continue;
+				if (ary[tx][ty] == '#') continue;
 
 				/* count */
 				if (ary[tx][ty] == 'v')
