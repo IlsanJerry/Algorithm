@@ -4,11 +4,12 @@ import java.util.*;
 import java.io.*;
 
 public class Tree_round_1991 {
-	private static BufferedWriter bw = 
+	private static BufferedWriter bw =
 			new BufferedWriter(new OutputStreamWriter(System.out));
 
 	public static void main(String args[]) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = 
+				new BufferedReader(new InputStreamReader(System.in));
 		int n= Integer.parseInt(br.readLine());
 		tree = new Node[n];
 		

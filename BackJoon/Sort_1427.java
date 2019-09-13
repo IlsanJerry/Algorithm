@@ -12,6 +12,7 @@ public class Sort_1427 {
         	list.add(a.charAt(i)-48);
         }
         Collections.sort(list);
+        
         for(int i=a.length()-1; i>-1; --i) {
         	System.out.print(list.get(i));
         }
