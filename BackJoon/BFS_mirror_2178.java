@@ -49,11 +49,10 @@ public class BFS_mirror_2178 {
 		map = new int[100][100];
 		visit = new boolean[100][100];
 
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n; i++) { 
 			String temp = sc.next();
-			for (int j = 0; j < m; j++) {
+			for (int j = 0; j < m; j++) 
 				map[i][j] = temp.charAt(j) - 48;
-			}
 		}
 
 		bfs(0, 0);
