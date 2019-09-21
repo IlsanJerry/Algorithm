@@ -13,7 +13,7 @@ public class BFS_mirror_2178 {
 	public static int map[][];
 	public static boolean visit[][];
 
-	// BFS
+	// BFS 추가
 	public static void bfs(int x, int y) {
 		Queue<Integer> qx = new LinkedList<Integer>();
 		Queue<Integer> qy = new LinkedList<Integer>();
