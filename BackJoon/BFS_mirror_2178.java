@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class BFS_mirror_2178 {
-
+	//BFS 수정중
 	static int[] dx = { 0, 1, 0, -1 };
 	static int[] dy = { 1, 0, -1, 0 };
 
