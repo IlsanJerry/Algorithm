@@ -20,9 +20,9 @@ public class DP_2Darray_2167 {
 		
 		for (int i = 1; i <= N; i++) {
 			ST = new StringTokenizer(BR.readLine());
-			for (int j = 1; j <= M; j++) {
+			for (int j = 1; j <= M; j++) 
 				DP[i][j] = DP[i - 1][j] + DP[i][j - 1] - DP[i - 1][j - 1] + Integer.parseInt(ST.nextToken());
-			}
+			
 		}
 		
 		int T = Integer.parseInt(BR.readLine());
