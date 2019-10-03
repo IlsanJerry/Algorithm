@@ -12,7 +12,8 @@ public class Que_deQue_card2_2164 {
         Deque<Integer> dq = new ArrayDeque<>();
         //ArrayDeque대신 LinkedList도 가능 
         //https://manzoo.tistory.com/83참고.
-        
+	//덱 다시보는중         
+
         for (int i = 1; i <= N; i++) dq.offer(i);
          
         while (dq.size() > 1) {
