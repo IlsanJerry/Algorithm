@@ -10,7 +10,8 @@ public class Recursion_1019_BookPage {
     private static int location = 1;
     
     public static void main(String[] args) throws NumberFormatException, IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = 
+        		new BufferedReader(new InputStreamReader(System.in));
         
         int n = Integer.parseInt(br.readLine()); // 36
         int start = 1;
