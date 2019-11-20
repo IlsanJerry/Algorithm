@@ -8,10 +8,7 @@ public class BFS_Sheep_3184 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		r = sc.nextInt();
-		c = sc.nextInt();
-		ary = new int[r][c];
-		
+		r = sc.nextInt(); c = sc.nextInt(); ary = new int[r][c];
 		for (int i = 0; i < r; i++) {
 			String t = sc.next();
 			for (int j = 0; j < c; j++)
