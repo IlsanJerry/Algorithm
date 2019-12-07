@@ -9,11 +9,10 @@ import java.util.StringTokenizer;
 public class DP_CoinCombination {
 
 	public static void main(String[] argS) throws IOException {
-
 		int N,M;
 		int[] coin;
-
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = 
+				new BufferedReader(new InputStreamReader(System.in));
 		int test = Integer.parseInt(br.readLine());
 		while (test-- > 0) {
 
